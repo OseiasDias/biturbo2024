@@ -346,7 +346,7 @@ export function FormularioCliente() {
 
         <Col md={6}>
           <Form.Group controlId="cpf">
-            <Form.Label>CPF</Form.Label>
+            <Form.Label>NIF</Form.Label>
             <div className="input-group">
               <span className="input-group-text"><FaIdCard fontSize={20} color="#0070fa" /></span>
               <Form.Control
@@ -354,7 +354,7 @@ export function FormularioCliente() {
                 name="cpf"
                 value={dadosFormulario.cpf}
                 onChange={handleMudanca}
-                placeholder="Digite o CPF"
+                placeholder="Digite o NIF"
               />
             </div>
           </Form.Group>
